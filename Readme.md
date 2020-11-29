@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 - Студент: [Арсений Зубов](https://up.htmlacademy.ru/adaptive/21/user/1343007).
-- Наставник: [Альбина Токарчук](https://github.com/endophasie).
+- Наставник: [Альбина Токарчук](https://htmlacademy.ru/profile/id167491).
 
 ---
 
