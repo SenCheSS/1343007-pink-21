@@ -7,48 +7,41 @@
   <body class="page__body">
     <header class="page-header">
       <a class="page-header__logo">
-        <img src="#" width="74" height="23" alt="Pink">
+        <img src="https://via.placeholder.com/150x150" width="74" height="23" alt="Pink">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-          <ul class="main-nav__list site-list container">
-            <li class="site-list__item site-list__item--active">
-              <a>
-                Главная
-              </a>
-            </li>
-            <li class="site-list__item">
-              <a href="photo.html">
-                Фотографии
-              </a>
-            </li>
-            <li class="site-list__item">
-              <a href="form.html">
-                Конкурс
-              </a>
-            </li>
-            <li class="site-list__item">
-              <a href="https://up.htmlacademy.ru/adaptive/21/project/pink#pink-3-9">
-                HTML Academy
-              </a>
-            </li>
-          </ul>
+        <ul class="main-nav__list site-list container">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">
+              Фотографии
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">
+              Конкурс
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://up.htmlacademy.ru/adaptive/21">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="visually-hidden">Взгляни на жизнь иначе!</h1>
+      <h1 class="page-main__slogan">Взгляни на жизнь иначе!</h1>
       <div class="app">
-        <p class="app__slogan">
-          Взгляни на жизнь иначе!
-        </p>
-        <img src="#" class="background__img">
-        <a class="app_button" href="https://itunes.apple.com/app/id[APPLE_ID]"><img src="#" width="47" height="56" alt="Apple"></a>
-        <a class="app_button" href="https://play.google.com/store/apps?hl=ru"><img src="#" width="43" height="47" alt="Android"></a>
-        <a class="app_button" href="https://www.microsoft.com/ru-ru/store/apps"><img src="#" width="44" height="41" alt="microsoft"></a>
-        <p class="app_legend">
-          Доступно для iPhone, iPad, Android,<br>
-          Windows Phone, OS X, Windows 8
-        </p>
+        <a class="app__button" href="https://itunes.apple.com/app"><img src="#" width="47" height="56" alt="Apple"></a>
+        <a class="app__button" href="https://play.google.com/store/apps?hl=ru"><img src="#" width="43" height="47" alt="Android"></a>
+        <a class="app__button" href="https://www.microsoft.com/ru-ru/store/apps"><img src="#" width="44" height="41" alt="microsoft"></a>
+        <p class="app__legend">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
       <section class="advantages">
         <h2 class="advantages__slogan">Устали от серости мегаполиса?<br>
@@ -77,7 +70,7 @@
           <div class="reviews__list slider__list">
             <blockquote class="reviews__item slider__item">
               <div class="reviews__author-info">
-                <cite class="reviews__author-name">Николай Петров</cite>
+                <h3 class="reviews__author-name">Николай Петров</h3>
                 <p class="reviews__author-about">25 лет, водитель трамвая</p>
                 <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
               </div>
@@ -92,7 +85,7 @@
           </p>
         </div>
       </section>
-      <section class="prices__wrapper">
+      <section class="prices">
         <h2 class="visually-hidden">Цена</h2>
           <table class="prices__table slider">
             <tr>
@@ -101,22 +94,22 @@
                 <strong>1,99 USD</strong>></td>
               <td class="prices__list slider__list">хит<br>
                 Стандарт<strong>3,99 USD</strong></td>
-              <td class="prices__list slider__list">АНЛИМ<strong>9,99 USD</strong></td>
+              <td class="prices__list slider__list">анлим<strong>9,99 USD</strong></td>
             </tr>
             <tr>
-              <td>Розовый фильтр</td>
+              <p>Розовый фильтр</p>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
               <td class="prices__item slider__item"><img src="#" alt="no"></td>
               <td class="prices__item slider__item"><img src="#" alt="no"></td>
             </tr>
             <tr>
-              <td>Смайлики</td>
+              <p>Смайлики</p>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
               <td class="prices__item slider__item"><img src="#" alt="no"></td>
             </tr>
             <tr>
-              <td>Комментарии</td>
+              <p>Комментарии</p>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
               <td class="prices__item slider__item"><img src="#" alt="yes"></td>
@@ -132,31 +125,28 @@
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <div class="page-footer__contacts contacts">
-          <p class="contacts__title">Остались вопросы?<br>
-            Свяжитесь с нами!</p>
+          <h3 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h3>
           <ul class="contact__text">
             <li>
               <p>Звоните:</p>
-              <a class="contacts__phone" href="tel:+7(812)5556666">+7(812)555-66-66</a>
+              <a class="contacts__phone" href="tel:78125556666">+7(812)555-66-66</a>
             </li>
             <li>
               <p>Пишите:</p>
-              <a class="contacts__mail-email" href="mailto:mail@htmlacademy.ru" >mail@htmlacademy.ru</a>
+              <a class="contacts__email" href="mailto:mail@htmlacademy.ru" >mail@htmlacademy.ru</a>
             </li>
             <li>
               <p>Приезжайте в гости:</p>
-              <a class="contacts__adress" href="#">ул. Большая<br>
-                Конюшенная, 19/8
+              <a class="contacts__address" href="#">ул. Большая Конюшенная, 19/8
               </a>
             </li>
             <div class="contacts__map">
-
             </div>
           </ul>
         </div>
         <div class="page-footer__logo">
           <a class="logo">
-            <img src="#" width="145" height="40" alt="Pink">
+            <img src="https://via.placeholder.com/150x150" width="145" height="40" alt="Pink">
           </a>
         </div>
         <div class="page-footer__social social">
@@ -178,7 +168,5 @@
         </div>
       </div>
     </footer>
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+    </body>
 </html>
